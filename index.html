@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <form action="" id="form">
+        <div class="search">
+          <input type="text" placeholder="search for a city..." id="input" />
+          <button id="search" type="button">Search</button>
+        </div>
+      </form>
+
+      <div class="stateNDate">
+        <h2 id="state"></h2>
+        <h3 id="date"></h3>
+      </div>
+
+      <div class="info">
+        <div>
+          <img class="icon" />
+        </div>
+        <p id="cloud"></p>
+        <p id="temps"></p>
+      </div>
+
+      <div class="info2">
+        <div id="humidity">
+          <h3>HUMIDITY</h3>
+          <p></p>
+          <hr />
+        </div>
+        <div id="feels-like">
+          <h3>FEELS LIKE</h3>
+          <p></p>
+          <hr />
+        </div>
+        <div id="sunrise">
+          <h3>SUNRISE</h3>
+          <p></p>
+          <hr />
+        </div>
+        <div id="sunset">
+          <h3>SUNSET</h3>
+          <p></p>
+          <hr />
+        </div>
+        <div id="visibility">
+          <h3>VISIBILITY</h3>
+          <p></p>
+          <hr />
+        </div>
+        <div id="wind-speed">
+          <h3>WIND SPEED</h3>
+          <p></p>
+          <hr />
+        </div>
+        <div id="pressure">
+          <h3>PRESSURE</h3>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <div class="spinner">
+      <p id="spinner"><i class="fa fa-spinner fa-3x"></i></p>
+    </div>
+    <div class="error">
+      <h2>please enter a name!!!</h2>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
